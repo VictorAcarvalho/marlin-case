@@ -8,9 +8,9 @@ html, :root {
     font-size: 62.5%;
     --shadow-line:  #d6d6d6;
 }
-body{
+html ,body{
     font-family: 'Open Sans', sans-serif;
-    
+    width: 100%;
 }
 
 .gray-letter{
