@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewslatterComponent } from './views/newslatter/newslatter.component';
 import { NavSideBarComponent } from './componnents/templates/nav-side-bar/nav-side-bar.component';
+import { NewsCrudComponent } from './views/news-crud/news-crud.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewslatterComponent,
-    NavSideBarComponent
+    NavSideBarComponent,
+    NewsCrudComponent
   ],
   imports: [
     BrowserModule,
