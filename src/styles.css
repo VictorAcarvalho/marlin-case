@@ -21,10 +21,19 @@ body{
     display: flex;
     flex-direction: column;
 }
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .container-centralized{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.margin-top{
+    margin-top: 2.5rem;
 }
