@@ -6,6 +6,7 @@
 
 html, :root {
     font-size: 62.5%;
+    --shadow-line:  #d6d6d6;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -15,9 +16,12 @@ body{
 .gray-letter{
    color: #6c757d;
 }
-.shadow-or-line{
-    color: #d6d6d6;
+
+.container-colum{
+    display: flex;
+    flex-direction: column;
 }
+
 .container-centralized{
     display:flex;
     flex-direction: column;

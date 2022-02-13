@@ -1,0 +1,30 @@
+.nav-container{
+    justify-content: flex-start;
+    margin: 3rem 2rem 0 2rem;
+    height: 100vh;
+}
+.options-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    width: 60%;
+
+}
+.options-container a{
+    text-decoration: none;
+    border-bottom: 1px solid #d6d6d6 ;
+    margin-bottom: 1rem;
+    padding-bottom: 0.8rem;
+}
+.search-input{
+    border-style: none;
+    border: 1px solid #d6d6d6;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    background: url(/src/assets/search.png) no-repeat right;
+    background-size: 1.5rem;
+    background-position-x: 95%;
+    margin-top: 0.8rem;
+    outline: none;
+}
