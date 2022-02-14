@@ -1,4 +1,4 @@
-export interface News{
+export interface INews{
     title:string
     image:string
     body: string

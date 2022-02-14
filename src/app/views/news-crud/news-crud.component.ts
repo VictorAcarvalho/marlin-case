@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-news-crud',
   templateUrl: './news-crud.component.html',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewsCrudComponent implements OnInit {
 
-  constructor() { }
+  constructor( ) { }
+
 
   ngOnInit(): void {
   }
-
+  
 }
