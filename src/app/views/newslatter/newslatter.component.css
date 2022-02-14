@@ -26,6 +26,9 @@
     width: 20rem;
     border-radius:0.8rem 0.8rem 0 0;
 }
+.img-card{
+    width: 20rem;
+}
 .inside-news{
     text-decoration: none;
     justify-self: flex-start;

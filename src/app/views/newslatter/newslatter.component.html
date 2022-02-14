@@ -9,11 +9,13 @@
             <ul>
                 <li *ngFor="let news of newsLatters">
                      <div class=card>
-                         <img src={{news.image}} alt="new-image">
+                          <div class="img-card">
+                              <img src={{news.image}} alt="new-image">
+                          </div>  
                         <div class="card-text">
                             <h3>{{news.title}}</h3>
                             <p class="gray-letter">{{news.body}}</p>    
-                            <a (click)='navigateToDetails()' class="inside-news">Ler mais...</a>
+                            <a routerLink='/details/{{news.id}}' class="inside-news">Ler mais...</a>
                         </div>
                     </div>   
                 </li>

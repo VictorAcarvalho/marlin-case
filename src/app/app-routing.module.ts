@@ -10,7 +10,7 @@ const routes: Routes = [{
   path:"newscreate",
   component:NewsCrudComponent
 },{
-  path:"details",
+  path:"details/:id",
   component:DetailsComponent
 }];
 
