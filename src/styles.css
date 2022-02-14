@@ -37,3 +37,67 @@ html ,body{
 .margin-top{
     margin-top: 2.5rem;
 }
+
+
+@media (max-width:450px){
+    :root{
+        font-size: 28%;
+    }
+    
+    #side-section{
+        width: 100%;
+        font-size: 1rem;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #news-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card{
+        width:30rem;
+        margin-left: 2rem;
+    }
+    .card img{
+        width: 30rem;
+    }
+
+    .search-input{
+        width:13rem ;
+        font-size: 1rem;
+    }
+
+}
+@media(max-width:800px){
+    :root{
+        font-size: 50%;
+    }
+    #side-section{
+        width: 100%;
+        font-size: 1rem;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #news-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card{
+        width:30rem;
+        margin-left: 2rem;
+    }
+    .card img{
+        width: 30rem;
+    }
+
+    .search-input{
+        width:13rem ;
+        font-size: 1rem;
+    }
+}
