@@ -1,6 +1,7 @@
 import { NewsService } from './../../services/news.service';
 import { Component, OnInit } from '@angular/core';
 import { INews } from '../../utils/news.model';
+import { Router } from '@angular/router'
 @Component({
   selector: 'app-newslatter',
   templateUrl: './newslatter.component.html',
@@ -11,7 +12,7 @@ export class NewslatterComponent implements OnInit {
   
   newsLatters: INews[] = [];
   
-  constructor(private newsService:NewsService) {
+  constructor(private newsService:NewsService,private router:Router) {
 
    }
 
@@ -20,5 +21,7 @@ export class NewslatterComponent implements OnInit {
      this.newsLatters = newsLatters;
    });
   }
-
+  navigateToDetails():void{
+    this.router.navigate(['/details']);
+  }
 }

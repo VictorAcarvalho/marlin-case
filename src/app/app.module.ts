@@ -8,12 +8,14 @@ import { NavSideBarComponent } from './componnents/templates/nav-side-bar/nav-si
 import { NewsCrudComponent } from './views/news-crud/news-crud.component';
 
 import{ HttpClientModule } from '@angular/common/http';
+import { DetailsComponent } from './views/details/details.component';
 @NgModule({
   declarations: [
     AppComponent,
     NewslatterComponent,
     NavSideBarComponent,
-    NewsCrudComponent
+    NewsCrudComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
