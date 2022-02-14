@@ -19,4 +19,8 @@ export class NewsService {
     const urlID= `${this.SERVER_URL}/${id}`
     return this.http.get<INews>(urlID)
   }
+
+  public createNews(news:INews):Observable<INews>{
+    return this.http.post<INews>(this.SERVER_URL,news);
+  }
 }
