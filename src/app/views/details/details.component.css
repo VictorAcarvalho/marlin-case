@@ -1,0 +1,18 @@
+.header-container{
+    margin-top: 1rem;
+}
+.details-container{
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+}
+.details-container img{
+    width: 40rem;
+    margin-left: 10rem;
+    border-radius: 0.8rem;
+}
+.details-text-container{
+    width: 80%;
+    word-break: break-all;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}

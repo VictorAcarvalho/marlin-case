@@ -1,10 +1,13 @@
-<div class="container-centralized">
+<div class="container-centralized header-container">
         <h1>{{newsDetail.title}}</h1>        
 </div>
 <div class="main-container">
-    <section>
+    <section class="container-centralized details-container" >
             <img src={{newsDetail.image}} alt="newsLatter-image">
-            <p>{{newsDetail.body}}</p>
+            <div class="container-centralized details-text-container">
+                <p>{{newsDetail.body}}</p>
+
+            </div>
     </section>
     <section>
         <app-nav-side-bar></app-nav-side-bar>
