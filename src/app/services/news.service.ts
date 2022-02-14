@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import{ Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { INews } from '../utils/news.model';
 
@@ -13,5 +13,10 @@ export class NewsService {
   
   public getNews():Observable<INews[]>{
     return this.http.get<INews[]>(this.SERVER_URL);
+  }
+
+  public getById(id:string):Observable<INews>{
+    const urlID= `${this.SERVER_URL}/${id}`
+    return this.http.get<INews>(urlID)
   }
 }
