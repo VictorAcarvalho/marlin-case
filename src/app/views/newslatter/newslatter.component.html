@@ -2,11 +2,23 @@
 
 <div class="margin-top container-centralized">
     <h1>Exibindo resultado de busca por "Covid 19"</h1>
-    <h3 class='gray-letter'>Encontramos um total de 20 resultados para a sua busca</h3>
+    <h3 class='gray-letter'>Encontramos um total de {{newsLatters.length}} resultados para a sua busca</h3>
 </div>
 <div class="main-container">
-       <section>
-           
+       <section class="news-section">
+            <ul>
+                <li *ngFor="let news of newsLatters">
+                     <div class=card>
+                         <img src={{news.image}} alt="new-image">
+                        <div class="card-text">
+                            <h3>{{news.title}}</h3>
+                            <p class="gray-letter">{{news.body}}</p>    
+                        </div>
+                        <a routerLink='' class="inside-news">Ler mais..</a>
+                     </div>   
+                </li>
+            </ul>
+
        </section>
        <section>
            <app-nav-side-bar></app-nav-side-bar>

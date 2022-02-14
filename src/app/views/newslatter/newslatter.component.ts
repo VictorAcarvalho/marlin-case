@@ -18,8 +18,7 @@ export class NewslatterComponent implements OnInit {
   ngOnInit(): void {
    this.newsService.getNews().subscribe( newsLatters=> {
      this.newsLatters = newsLatters;
-     console.log(newsLatters);
-   })
+   });
   }
 
 }
