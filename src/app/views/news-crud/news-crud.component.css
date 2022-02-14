@@ -1,0 +1,26 @@
+.crud-container{
+    margin-top: 3rem;
+    margin-left: 35REM;   
+}
+
+.crud-container input{
+    margin-bottom: 0.8rem;
+    padding: 1rem;
+    border-style: none;
+    border: 1px solid #d6d6d6;
+    border-radius: 0.8rem;
+    outline: none;
+}
+
+.crud-container button{
+    border-style: none;
+    border: 1px solid #d6d6d6;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    background: url(/src/assets/search.png) no-repeat right;
+    background-size: 1.5rem;
+    background-position-x: 95%;
+    margin-top: 0.8rem;
+    outline: none;
+    cursor:pointer;
+}

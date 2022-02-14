@@ -3,8 +3,11 @@
     <h3 class='gray-letter'>Cadastre sua notícia abaixo</h3>
 </div>
     <div class="main-container">
-        <section>
-
+        <section class="container-colum crud-container">
+                <input type="text"  placeholder="coloque o titulo" name="title" [()]="news.title">
+                <input type="text"  placeholder="coloque a imagem" name="image" [()]="news.image">
+                <input type="text"  placeholder="coloque o texto" name="body" [()]="news.body">
+                <button>Salvar</button>
         </section>
         <section>
             <app-nav-side-bar></app-nav-side-bar>
