@@ -1,3 +1,7 @@
+h3{
+    font-size: 1rem;
+}
+
 .nav-container{
     justify-content: flex-start;
     margin: 3rem 2rem 0 2rem;

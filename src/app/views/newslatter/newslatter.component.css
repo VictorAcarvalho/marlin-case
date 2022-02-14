@@ -10,8 +10,10 @@
     flex-direction: row;
     height: 100%;
     width: 160%;
+    margin-top: 1rem;
 }
 .card{
+    height: 25rem;
     width: 20.1rem;
     margin: 2rem;
     border: 1px solid #d6d6d6;
@@ -26,9 +28,9 @@
 }
 .inside-news{
     text-decoration: none;
-    margin: 1rem;
-    padding-bottom: 1rem;
+    justify-self: flex-start;
     color: blue;
+    margin-bottom: 1rem;
 }
 .card-text{
     margin: 1rem; 
@@ -37,11 +39,10 @@
     justify-content: flex-start;
 }
 .card-text h3{
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1rem;
 }
 .card-text p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 1rem;
     word-break:break-all;
     white-space: nowrap;
@@ -58,4 +59,5 @@
 }
 .news-section li{
     list-style: none;
+    
 }
